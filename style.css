@@ -8,6 +8,7 @@
     height: 200px;
     float: left;
     margin-right: 10px;
+    margin-bottom: 8%;
 }
 
 /* Child Text Container */
@@ -20,11 +21,11 @@
     margin-bottom: 5px;
     font-family: sans-serif;
     opacity: 0;
-    float: left;
     visibility: hidden;
     -webkit-transition: visibility 0s, opacity 0.5s linear;  
     transition: visibility 0s, opacity 0.5s linear;
 }
+
 
 /* Hover on Parent Container */
 .content_img:hover{
@@ -96,3 +97,7 @@ h1 {
   }
 
   #center{width:100%; height:100px; }
+p
+{
+    font-size: 20px;
+}
